@@ -1,8 +1,37 @@
+body {
+    background-color: blue;
+}
+
 .jumbotron{
     text-shadow: 1px 8px 3px red;
     text-align:center;
     color: blue;
+    font-family: 'Bungee Inline', cursive;
+    background-image: url(masters.jpg);
+    background-position-y: -150px;
 }
+
+.navbar{
+    background-color: red;
+}
+
+#serviceTitle{
+    text-shadow: 1px 8px 3px blue;
+    text-align:center;
+    color: red;
+    font-family: 'Bungee Inline', cursive;
+    background-image: url(services.jpg);
+    background-position-y: -150px;
+    
+}
+
+#offers{
+    color: red;
+    font-family: 'Merienda', cursive;
+    
+}
+
+
 
 
 
