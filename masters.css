@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+  }
+
 body {
     
 }
@@ -11,7 +15,7 @@ body {
     background-position-y: -150px;
 }
 
-.navbar{
+.nav{
     background-color: red;
 }
 
