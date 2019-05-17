@@ -10,7 +10,7 @@ body {
     text-shadow: 1px 8px 3px red;
     text-align:center;
     color: blue;
-    font-family: 'Bungee Inline', cursive;
+    font-family: 'Bungee Shade', cursive;
     background-image: url(masters.jpg);
     background-position-y: -150px;
 }
@@ -23,9 +23,8 @@ body {
     text-shadow: 1px 8px 3px blue;
     text-align:center;
     color: red;
-    font-family: 'Bungee Inline', cursive;
-    background-image: url(services.jpg);
-    background-position-y: -150px;
+    font-family: 'Bungee Shade', cursive;
+    
     
 }
 
@@ -34,6 +33,7 @@ body {
     font-family: 'Merienda', cursive;
     
 }
+
 
 
 

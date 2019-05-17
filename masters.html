@@ -11,29 +11,54 @@
 
 <link rel="stylesheet" type="text/css" href="masters.css">
 
-<link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Bungee+Shade&display=swap" rel="stylesheet">
     </head>
     <body>
 
         <h1 class=" jumbotron display-4"><strong><em>Masters Auto Shop</em></strong></h1>
-    <div class="row">
 
-        <div class="col">
-            <nav class="navbar bg-info justify-content-center navbar-light">
+    
+
+        <div >
+            <nav class="navbar bg-info justify-content-center">
             <ul class="navbar-nav">
                 <li class="nav-item"><a class="nav-link"  href="services.html">Services</a></li>
-                <li class="nav-item"><a class="nav-link"  href="#">Contact Information</a></li>
+                <li class="nav-item"><a class="nav-link"  href="#">Contact Us</a></li>
                 <li class="nav-item"><a class="nav-link"  href="#">About us</a></li>
                 <li class="nav-item"><a class="nav-link"  href="#">Locations</a></li>
                 <li class="nav-item"><a class="nav-link"  href="#">navitem</a></li>
             </ul>
             </nav>
         </div>
-        <div class="col">
-            <img src="menwork.jpg" alt="men working">
+        
+   
+
+    <div id="images" class='carousel slide' data-ride="carousel">
+
+        
+        <ul class='carousel-indicators'>
+            <li data-target="#images" data-slide-to='0' class=active></li>
+            <li data-target="#images" data-slide-to='1' ></li>
+            <li data-target="#images" data-slide-to='2' ></li>
+        </ul>
+
+        
+        <div class="carousel-inner">
+
+            <div class="carousel-item active"><img src="menpaint.jpg" alt='man painting'></div>
+            <div class="carousel-item"><img src="menwork.jpg" alt='man working'></div>
+            <div class="carousel-item"><img src="menworking.jpg" alt='man working'></div>
+
         </div>
-    
-    </div>
+
+        
+        <a class='carousel-control-prev' href="#images" data-slide="prev">
+            <span class="fas fa-angle-left"></span>
+        </a>
+        <a class='carousel-control-next' href="#images" data-slide="next">
+            <span class="fas fa-angle-right"></span>
+        </a>
+    </div>       
        
         
        
