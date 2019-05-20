@@ -1,23 +1,25 @@
-* {
-    box-sizing: border-box;
-  }
-
-body {
-    
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
 }
 
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
 .jumbotron{
-    text-shadow: 1px 8px 3px red;
+    text-shadow: 1px 8px 3px blue;
     text-align:center;
-    color: blue;
+    color: red;
     font-family: 'Bungee Shade', cursive;
     background-image: url(masters.jpg);
     background-position-y: -150px;
 }
 
-.nav{
-    background-color: red;
-}
 
 #serviceTitle{
     text-shadow: 1px 8px 3px blue;
@@ -28,11 +30,18 @@ body {
     
 }
 
-#offers{
-    color: red;
-    font-family: 'Merienda', cursive;
-    
+#contNav{
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
 }
+
+#painting{
+    font-family: 'Bungee Shade', cursive;
+    color: red;
+    font-size: 30px;
+}
+
+
 
 
 
