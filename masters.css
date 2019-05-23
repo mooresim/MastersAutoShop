@@ -1,3 +1,7 @@
+
+
+
+
 .container {
     position: relative;
     text-align: center;
@@ -30,10 +34,7 @@
     
 }
 
-#contNav{
-    font-family: 'Cinzel', serif;
-    font-size: 20px;
-}
+
 
 #painting{
     font-family: 'Bungee Shade', cursive;
@@ -41,7 +42,21 @@
     font-size: 30px;
 }
 
+.navbar{
+    background-color: blue;
+}
 
+#paintDesc{
+    font-family: 'Cinzel', serif;
+    color: blue;
+    font-size: 38px;
+}
+
+#autoDesc{
+    font-family: 'Cinzel', serif;
+    color: blue;
+    font-size: 40px;
+}
 
 
 
