@@ -1,4 +1,6 @@
-
+body{
+    background-color: blue;
+}
 
 
 
@@ -36,11 +38,13 @@
 
 
 
-#painting{
+.centered{
     font-family: 'Bungee Shade', cursive;
     color: red;
     font-size: 30px;
 }
+
+
 
 .navbar{
     background-color: blue;
@@ -48,16 +52,48 @@
 
 #paintDesc{
     font-family: 'Cinzel', serif;
-    color: blue;
-    font-size: 38px;
+    color: gray;
+    font-size: 30px;
 }
 
 #autoDesc{
     font-family: 'Cinzel', serif;
-    color: blue;
-    font-size: 40px;
+    color: gray;
+    font-size: 30px;
 }
 
+#tuneupDesc{
+    font-family: 'Cinzel', serif;
+    color: gray;
+    font-size: 30px;
+}
+
+#brakesDesc{
+    font-family: 'Cinzel', serif;
+    color: gray;
+    font-size: 30px;
+}
+
+#tiresDesc{
+    font-family: 'Cinzel', serif;
+    color: gray;
+    font-size: 30px;
+}
+
+#contNav{
+    font-family: 'Roboto', sans-serif;
+    color: gray;
+    font-size: 20px;
+}
+
+a{
+    color: gray;
+    
+}
+
+#back2Top{
+    font-size: 20px;
+}
 
 
 
