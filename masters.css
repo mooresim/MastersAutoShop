@@ -95,9 +95,44 @@ a{
     font-size: 20px;
 }
 
+#serviceDesc{
+    text-align: center;
+}
 
+.firstCont{
+    font-family: 'Cinzel', serif;
+    color: red;
+    font-size: 25px;
+    text-align: center;
+}
 
+.secondCont{
+    font-family: 'Cinzel', serif;
+    color: red;
+}
 
+.about{
+    font-family: 'Cinzel', serif;
+    color: red;
+    text-align: center;
+    font-size: 25px;
+}
 
+.jumboLink:hover{
+    text-decoration: none;
+}
+
+.locationHead{
+    font-family: 'Bungee Shade', cursive;
+    text-align: center;
+    
+}
+
+.locations{
+    font-family: 'Cinzel', serif;
+    color: red;
+    text-align: center;
+    font-size: 25px;
+}
 
 
